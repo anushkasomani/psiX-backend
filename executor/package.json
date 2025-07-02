@@ -2,10 +2,10 @@
   "name": "executor",
   "private": true,
   "scripts": {
-  "dev": "ts-node src/executor-botv1/server.ts",
-  "build": "tsc -p .",
-  "start": "node dist/executor-botv1/server.js"
-},
+    "dev": "ts-node src/executor-botv1/server.ts",
+    "build": "tsc -p .",
+    "start": "node dist/executor-botv1/server.js"
+  },
   "dependencies": {
     "@hpke/chacha20poly1305": "^1.6.2",
     "@hpke/core": "^1.7.2",
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "4",
+    "@types/node": "^24.0.10",
     "@types/snarkjs": "^0.7.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
